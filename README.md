@@ -68,11 +68,11 @@ And custom timeOut for Toast dissapear (ms) _default: 2000ms_:
 
 ### Screenshots
 
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast.gif" widht="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_error.png" width="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_success.png" width="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_info.png" width="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_warn.png" width="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_normal.png" width="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_icon.png" width="250">
-<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_custom.png" width="250">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast.gif">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_error.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_success.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_info.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_warning.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_normal.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_icon.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_custom.png">
