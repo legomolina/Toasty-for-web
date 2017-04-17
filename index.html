@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toasty Web</title>
+
+    <link rel="stylesheet" href="styles/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto:400" rel="stylesheet">
+
+    <script src="scripts/ToastyWeb.js"></script>
+</head>
+<body>
+
+<button onclick="ToastyWeb.error('404 Not found').show()">Error toast</button>
+<button onclick="ToastyWeb.error('404 Not found').show()">Error toast</button>
+<button onclick="ToastyWeb.success('Correct!').show()">Success toast</button>
+<button onclick="ToastyWeb.info('Should you be informed?').show()">Info toast</button>
+<button onclick="ToastyWeb.warning('Careful with radiation').show()">Warning toast</button>
+<button onclick="ToastyWeb.normal('Curious name, Toast').show()">Normal toast</button>
+<button onclick="ToastyWeb.normal('Wow, an icon appears!', 'videogame_asset').show()">Normal toast with icon</button>
+<button onclick="ToastyWeb.custom('> echo \'Custom Toast rules!\';', '#11FF00', '#000000', 'computer').show()">Customizable toast</button>
+
+</body>
+</html>
