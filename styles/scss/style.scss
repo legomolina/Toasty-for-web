@@ -40,20 +40,22 @@ html, body {
 
     border-radius: 50px;
 
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    max-width: 90%;
 
     & > .toasty-icon-container {
       display: inline-block;
-      vertical-align: middle;
+      width: calc(40px + 1.5ex);
 
       padding: 15px 10px 15px 30px;
-      margin-top: -3px;
 
       font-size: 1.5em;
     }
 
     & > .toasty-text-container {
       display: inline-block;
+      width: calc(100% - (40px + 1.5ex));
       padding: 15px 40px 15px 0;
 
       font-size: .9em;
