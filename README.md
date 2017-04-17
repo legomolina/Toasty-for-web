@@ -49,8 +49,8 @@ Also, show method has two callbacks:
 ToastyWeb.success('Correct!').show(function(toastId) {
     //When the Toast has been created and it gets the toastId
 }, function(toastId) {
-    //When the Toast has been hided
-    //If this function returns false, the toast won't be destroyed, just hided
+    //When the Toast has been hid
+    //If this function returns false, the toast won't be destroyed, just hid
 });
 ```
 If you want ommit one of them just set it to true.
@@ -67,3 +67,14 @@ And custom timeOut for Toast dissapear (ms) _default: 2000ms_:
 ```javascript
     ToastyWeb.customTimeOut = 5000;
 ```
+
+### Screenshots
+
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast.gif">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_error.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_success.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_info.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_warning.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_normal.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_icon.png">
+<img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_custom.png">
