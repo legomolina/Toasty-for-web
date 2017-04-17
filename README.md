@@ -49,8 +49,8 @@ Also, show method has two callbacks:
 ToastyWeb.success('Correct!').show(function(toastId) {
     //When the Toast has been created and it gets the toastId
 }, function(toastId) {
-    //When the Toast has been hided
-    //If this function returns false, the toast won't be destroyed, just hided
+    //When the Toast has been hid
+    //If this function returns false, the toast won't be destroyed, just hid
 });
 ```
 If you want ommit one of them just set it to true.
