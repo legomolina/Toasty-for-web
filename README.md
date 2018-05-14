@@ -4,7 +4,7 @@
 **Idea was taken from [GrenderG](https://github.com/GrenderG) Toasty repository.**
 
 ### Installation
-1. Copy 'style.css' located inside 'styles/css' into your project and link it with ```<link>```.
+1. Copy 'style.css' located inside 'styles/css' into your project and link it with ```<link>```<sup>2</sup>.
 2. Copy the JavaScript file 'ToastyWeb.js' into your project and include it in your header with ```<script>```.
 3. Enjoy using Toasts!
 
@@ -55,7 +55,9 @@ ToastyWeb.success('Correct!').show(function(toastId) {
 ```
 If you want ommit one of them just set it to true.
 
-> **(1) Note: all icons must come from [material icons](https://material.io/icons)**.
+> **(1) Note: all icons must come from [material icons](https://material.io/icons).**
+
+> **(2) Note: if you are using bootstrap is probably that .show class has an !important so you need to uncomment [this](https://github.com/legomolina/Toasty-for-web/blob/master/styles/scss/style.scss#L36).**
 
 ### Configuration
 You can set a custom class for Toast:
