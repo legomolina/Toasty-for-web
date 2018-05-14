@@ -33,6 +33,7 @@ html, body {
   transition: bottom .2s ease-in-out;
 
   &.show {
+    //display: flex!important;
     bottom: 80px;
   }
 
