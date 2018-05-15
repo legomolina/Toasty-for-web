@@ -29,6 +29,11 @@ To display a warning Toast:
 ToastyWeb.warning('Careful with radiation').show();
 ```
 
+All methods above supports a second param to show or not the default icon. Default is true.
+```javascript
+ToastyWeb.warning('Careful with radiation w/o icon', false).show();
+```
+
 To display a normal Toast:
 ```javascript
 ToastyWeb.normal('Curious name, Toast').show()

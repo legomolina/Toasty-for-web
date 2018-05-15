@@ -63,5 +63,9 @@ html, body {
 
       font-size: .9em;
     }
+
+    & > .toasty-icon-container + .toasty-text-container {
+      background: yellow;
+    }
   }
 }
