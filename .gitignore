@@ -1,8 +1,10 @@
-#Used for compile SCSS
-node_modules
-Gulpfile.js
-package.json
+#Generated scripts
+dist/scripts/Queue.d.ts
+dist/scripts/ToastyWeb.cjs.js
+dist/scripts/ToastyWeb.d.ts
 
-#IDE files
-.idea
+#Node dependencies
+node_modules/
 
+#Rollup cache
+.rpt2_cache

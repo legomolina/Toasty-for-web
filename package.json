@@ -1,0 +1,45 @@
+{
+  "name": "toasty-web",
+  "version": "1.0.0",
+  "description": "Toasty implementation for webs",
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c && npm run scss",
+    "scss": "node_modules/.bin/sass src/styles/style.scss dist/styles/style.css --style=compressed",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "dist/scripts/ToastyWeb.cjs.js",
+    "dist/styles/style.css"
+  ],
+  "types": "dist/script/ToastyWeb.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legomolina/Toasty-for-web.git"
+  },
+  "keywords": [
+    "toasty",
+    "notifications",
+    "web",
+    "android"
+  ],
+  "main": "dist/scripts/ToastyWeb.cjs.js",
+  "module": "dist/scripts/ToastyWeb.esm.js",
+  "browser": "dist/scripts/ToastyWeb.umd.js",
+  "author": "legomolina",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/legomolina/Toasty-for-web/issues"
+  },
+  "homepage": "https://github.com/legomolina/Toasty-for-web#readme",
+  "devDependencies": {
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel-minify": "^7.0.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.18.1",
+    "sass": "^1.16.0-dev",
+    "typescript": "^3.2.2"
+  }
+}

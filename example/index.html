@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ToastyWeb Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../dist/styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../dist/scripts/ToastyWeb.umd.js"></script>
+</head>
+
+<body>
+
+    <button id="error-toast">Error toast</button>
+    <button id="success-toast">Success toast</button>
+    <button id="info-toast">Info toast</button>
+    <button id="warning-toast">Warning toast</button>
+    <button id="normal-toast">Normal toast</button>
+    <button id="normal-icon-toast">Normal toast with icon</button>
+    <button id="custom-toast">Customizable toast</button>
+
+    <script>
+        document.getElementById("error-toast").addEventListener("click", function () { ToastyWeb.error("404 not found").show() }, false);
+        document.getElementById("success-toast").addEventListener("click", function () { ToastyWeb.success("Correct!").show() }, false);
+        document.getElementById("info-toast").addEventListener("click", function () { ToastyWeb.info("Should you be informed?").show() }, false);
+        document.getElementById("warning-toast").addEventListener("click", function () { ToastyWeb.warning("Careful with radiation").show() }, false);
+        document.getElementById("normal-toast").addEventListener("click", function () { ToastyWeb.normal("Curious name, Toast").show() }, false);
+        document.getElementById("normal-icon-toast").addEventListener("click", function () { ToastyWeb.normal("Wow, an icon appears!", "videogame_asset").show() }, false);
+        document.getElementById("custom-toast").addEventListener("click", function () { ToastyWeb.custom("> echo \'Custom Toast rules!\';", "#11FF00", "#000000", "computer").show() }, false);
+    </script>
+</body>
+
+</html>
