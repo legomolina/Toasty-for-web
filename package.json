@@ -1,6 +1,6 @@
 {
   "name": "toasty-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toasty implementation for webs",
   "scripts": {
     "build": "node_modules/.bin/rollup -c && npm run scss",
