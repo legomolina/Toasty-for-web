@@ -3,9 +3,19 @@
 
 **Idea was taken from [GrenderG](https://github.com/GrenderG) Toasty repository.**
 
-### Installation
-1. Copy 'style.css' located inside 'styles/css' into your project and link it with ```<link>```<sup>2</sup>.
-2. Copy the JavaScript file 'ToastyWeb.js' into your project and include it in your header with ```<script>```.
+### Npm installation
+```bash
+npm install toasty-web
+```
+
+And then require it:
+```javascript
+const ToastyWeb = require('toasty-web');
+```
+
+### Manual installation
+1. Copy 'style.css' located inside 'dist/styles' into your project and link it with ```<link>```<sup>2</sup>.
+2. Copy the JavaScript file 'dist/scripts/ToastyWeb.umd.js' into your project and include it in your header with ```<script>```. If you are using ES modules you can use the 'dist/scripts/ToastyWeb.esm.js' instead.
 3. Enjoy using Toasts!
 
 ### Usage
@@ -58,11 +68,11 @@ ToastyWeb.success('Correct!').show(function(toastId) {
     //If this function returns false, the toast won't be destroyed, just hid
 });
 ```
-If you want ommit one of them just set it to true.
+If you want ommit one of them just set it to `function() { return true; }`.
 
 > **(1) Note: all icons must come from [material icons](https://material.io/icons).**
 
-> **(2) Note: if you are using bootstrap is probably that .show class has an !important so you need to uncomment [this](https://github.com/legomolina/Toasty-for-web/blob/master/styles/scss/style.scss#L36).**
+> **(2) Note: if you are using bootstrap is probably that .show class has an !important so you need to uncomment [this](https://github.com/legomolina/Toasty-for-web/blob/master/src/styles/style.scss#L21).**
 
 ### Configuration
 You can set a custom class for Toast:
@@ -85,3 +95,11 @@ And custom timeOut for Toast dissapear (ms) _default: 2000ms_:
 <img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_normal.png">
 <img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_icon.png">
 <img src="https://raw.githubusercontent.com/legomolina/Toasty-for-web/master/art/toast_custom.png">
+
+### Build
+The project is made with Typescript and SCSS so if you want to make changes you need to build it with
+```bash
+npm run build
+```
+
+and generated files will be in `dist/` folder
